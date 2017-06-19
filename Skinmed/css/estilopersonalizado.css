@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 13, 2017, 11:23:16 AM
+    Author     : I-Solutions
+*/
+
+.pyh3-siempre-igual > p {
+    min-height: 120px;
+}
+
+.pyh3-siempre-igual > h3 {
+    min-height: 55px;
+    text-align: center; 
+}
+
+.hola > img {
+    vertical-align:top;
+    border-radius: 100em;
+    /*    -webkit-border-radius:100em;*/
+}
+
+
+.h3-sin-margintop > h3{
+    margin-top: 0px;
+}
+
+
+@media only screen and (min-width: 959px) {
+    .btn-responsive {
+        padding:10px 20px;
+        font-size:14px;
+        line-height: 1;
+        border-radius:3px;
+        position: relative;
+        display: inline-block;
+    
+    }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .btn-responsive {
+        padding:4px 9px;
+        font-size:14px;
+        line-height: 1.2;
+       position: relative; 
+       display: inline-block;
+     
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+     .btn-responsive {
+        padding:5px 10px;
+        font-size:14px;
+        line-height: 1;
+        border-radius:3px;
+        position: relative; 
+        display: inline-block;
+
+    }
+    
+    
+
+
+}
+
+
